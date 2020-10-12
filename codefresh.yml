@@ -24,7 +24,7 @@ steps:
     title: Building Docker Image
     type: build
     stage: build
-    image_name: react-sample-app
+    image_name: syuo7/react-sample-app
     working_directory: ./
     tag: 'with-nginx'
     dockerfile: Dockerfile
